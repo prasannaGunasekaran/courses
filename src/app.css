@@ -1,0 +1,52 @@
+.title{
+  text-align: center;
+}
+img{
+  width:14rem;
+  height: 10rem;
+  padding: 1rem 0;
+}
+body{
+  background-color:rgba(75, 167, 103, 0.425);
+}
+.underline {
+    height: 0.25rem;
+    width: 5rem;
+    background: red;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+  }
+  .btn-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+.filter-btn{
+  height: 2.5rem;
+  width: 6rem;
+  border: none;
+  background-color: blue;
+  color: aliceblue;
+  font-weight: 700;
+  border-radius: 5px;
+}
+.card{
+  height: 50%;
+  width: 50%;
+  margin: auto;
+  background-color: rgb(208, 232, 158);
+  border: 5px solid rgb(65, 129, 70);
+  padding: 2rem ;
+  border-radius: 9px;
+  margin-top: 3rem;
+}
+.tittle,.price,.item-text{
+  text-align: center;
+}
+.image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
